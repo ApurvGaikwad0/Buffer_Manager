@@ -99,7 +99,7 @@ This compiles two test executables:
 - **Structure of the Assignment**
 
 Structure of the Assignment
-
+---
 assign2/
 ├── README.md
 ├── Makefile
@@ -114,7 +114,7 @@ assign2/
 ├── storage_mgr.c
 ├── test_assign2_1.c
 └── test_assign2_2.c
-
+---
 - **Conclusion :**
 
 This assignment provided valuable hands-on experience with buffer management in database systems. Our implementation efficiently caches disk pages using FIFO and LRU strategies while tracking I/O operations and page status. The design adheres to the given interface and has been thoroughly tested using the provided test cases. Future enhancements could include additional replacement strategies (e.g., CLOCK, LRU-K) and making the implementation thread-safe.
