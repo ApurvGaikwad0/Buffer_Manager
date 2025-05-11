@@ -1,12 +1,7 @@
-# Assignment 2 - Buffer Manager
+# Buffer Manager
 
-# Submitted by:
 
-## Apurv Gaikwad A20569178
 
-## Nishant Dalvi A20556507
-
-## Satyam Borade A20586631
 
 ## Overview
 
