@@ -6,7 +6,7 @@
 
 ## Overview
 
-The goal of this assignment is to implement a buffer manager that manages a fixed number of pages in memory (called page frames) for an existing page file. The buffer manager works in tandem with a storage manager from Assignment 1. Together, they form a **Buffer Pool**—a combination of a page file and a set of memory frames that cache disk pages.
+The goal is to implement a buffer manager that manages a fixed number of pages in memory (called page frames) for an existing page file. The buffer manager works in tandem with a storage manager from Assignment 1. Together, they form a **Buffer Pool**—a combination of a page file and a set of memory frames that cache disk pages.
 
 The buffer manager is capable of handling multiple open buffer pools simultaneously (with the restriction that only one buffer pool may be open per page file). Each pool uses a page replacement strategy, determined at initialization. In our implementation, we have provided two replacement strategies: **FIFO** and **LRU**.
 
